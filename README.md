@@ -1,5 +1,7 @@
 Vertex Market Annual Report 2022 - Sales Dashboard
+
 📌 Project Objective
+
 The objective of this project is to analyze the annual sales data of Vertex Market for the year 2022 to understand customer behavior, identify top-performing regions, and provide data-driven insights to improve sales in 2023.
 
 🛠️ Tools Used
