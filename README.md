@@ -1,35 +1,28 @@
-📊 Annual Sales Analysis Dashboard (2022)
-🎯 Project Objective
-The objective of this project was to analyze the 2022 sales data for a retail store called Vertex Market. This dashboard helps the business owner understand customer behavior, identify top-performing states, and analyze sales trends across different e-commerce platforms like Amazon, Flipkart, and Myntra.
+Vertex Market Annual Report 2022 - Sales Dashboard
+📌 Project Objective
+The objective of this project is to analyze the annual sales data of Vertex Market for the year 2022 to understand customer behavior, identify top-performing regions, and provide data-driven insights to improve sales in 2023.
 
-🛠️ Tech Stack & Skills
-Tool: Microsoft Excel (Advanced)
+🛠️ Tools Used
+MS Excel: Data Cleaning, Processing, and Analysis.
 
-Features Used: Pivot Tables, Pivot Charts, Slicers, Data Validation, and Conditional Formatting.
+Pivot Tables: To summarize and aggregate data.
 
-Techniques: Data Cleaning, Trend Analysis, and Interactive Dashboard Design.
+Excel Charts: For data visualization (Pie charts, Bar charts, Combo charts).
 
-🧹 Data Cleaning & Preparation
-To ensure the accuracy of the dashboard, I performed the following steps:
+Slicers: For interactive filtering of the dashboard.
 
-Removing Duplicates: Cleaned the raw data to ensure each Order ID is unique.
+🧹 Data Cleaning & Processing
+Checked for null values and inconsistencies in 'Gender' (m, men, w, women) and 'Qty' columns.
 
-Data Standardization: Used TRIM and Proper functions to fix naming inconsistencies in columns like 'Category' and 'Status'.
+Created an 'Age Group' column using IF logic.
 
-Handling Missing Values: Checked for null values in the 'Age' and 'Gender' columns to maintain data integrity.
+Extracted 'Month' from Date column using =TEXT(date, "mmm").
 
-Custom Columns: Created custom 'Age Group' categories (Adult, Senior, Teenager) using Excel formulas to get deeper demographic insights.
+📊 Key Insights
+Top Customer Segment: Women are the primary buyers (~64%).
 
-📈 Key Insights from the Dashboard
-Gender Analysis: Women are the primary customers, contributing to nearly 64% of total sales.
+Top Region: Maharashtra is the leading state in terms of sales.
 
-Channel Performance: Amazon, Flipkart, and Myntra are the top 3 channels, accounting for the majority of the orders.
+Target Audience: Adults (30-49 years) contribute the most to revenue.
 
-Top State: Maharashtra emerged as the highest-selling state in 2022.
-
-Age Group: The 'Adult' age group (30-49 yrs) is the most active segment, contributing significantly to the revenue.
-
-🚀 How to use this Dashboard
-Use the Slicers on the left to filter data by Month, Category, or Channel.
-
-The charts will automatically update to show the filtered insights.
+Best Channel: Amazon is the most successful sales channel.
